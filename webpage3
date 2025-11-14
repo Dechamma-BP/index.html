@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artificial Intelligence</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: rgba(0, 0, 0, 0.4);
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #00e5ff;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cceeff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      animation: slideUp 1.5s ease;
+    }
+
+    h2 {
+      color: #00b7ff;
+      border-bottom: 2px solid #00b7ff;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+
+    p, ul {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #e6faff;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .ai-image {
+      width: 100%;
+      border-radius: 12px;
+      margin: 25px 0;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      transition: transform 0.5s ease;
+    }
+
+    .ai-image:hover {
+      transform: scale(1.02);
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    a.learn-btn {
+      background: #00b7ff;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    a.learn-btn:hover {
+      background: #008ecc;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      color: #cceeff;
+      font-size: 0.9rem;
+      margin-top: 50px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Artificial Intelligence</h1>
+    <p>Discover the science of machines that think, learn, and adapt.</p>
+  </header>
+
+  <main>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Artificial_Intelligence_%26_Machine_Learning.png" alt="Artificial Intelligence" class="ai-image">
+
+    <h2>What is Artificial Intelligence?</h2>
+    <p>
+      Artificial Intelligence (AI) refers to the ability of machines to perform tasks that typically require human intelligence. 
+      These include understanding language, recognizing patterns, solving problems, and making decisions.
+    </p>
+
+    <h2>Applications of AI</h2>
+    <ul>
+      <li>🤖 Robotics and Automation</li>
+      <li>🗣️ Natural Language Processing (Chatbots, Voice Assistants)</li>
+      <li>🧠 Machine Learning and Data Analysis</li>
+      <li>🚗 Self-driving Vehicles</li>
+      <li>💊 Medical Diagnosis and Healthcare</li>
+    </ul>
+
+    <h2>Why AI Matters</h2>
+    <p>
+      AI is transforming industries, enhancing productivity, and solving complex global challenges. 
+      From healthcare and education to finance and entertainment, it’s shaping the future of human civilization.
+    </p>
+
+    <div class="button-container">
+      <a class="learn-btn" href="https://www.ibm.com/cloud/learn/what-is-artificial-intelligence" target="_blank">
+        Learn More
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    © BY DECHAMMA B P
+  </footer>
+</body>
+</html>
